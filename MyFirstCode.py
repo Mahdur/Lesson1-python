@@ -8,3 +8,6 @@ a=3
 x=5
 addition=a+x
 print(f"the sum of {a} and {x} is {addition}")
+
+#this file is about how print 
+# statements and variables work
