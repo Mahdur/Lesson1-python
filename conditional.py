@@ -39,3 +39,16 @@ elif age_mahdur >= 9:
     print("Vihaan can just watch a movie")
 else:
     print("Vihaan can only play a game")
+
+#Below is the program to check grade
+
+score = int(input("What's your score"))
+
+if score >= 85:
+    print("you got an A")
+elif score >= 70:
+    print("You got a B")
+elif score >= 50:
+    print("you got a C")
+else:
+    print("you failed")
