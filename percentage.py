@@ -1,3 +1,4 @@
+#this is about finding percentages
 print("enter marks obtained in 4 subjects: ")
 math = int(input("english :"))
 english = int(input("Maths :"))
