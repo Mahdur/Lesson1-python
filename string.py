@@ -1,5 +1,6 @@
 text =input("Enter a string")
-
+text2 = "Mahdur"
+print(text2.find('u'))
 
 revText = text[::-1]
 text = revText
