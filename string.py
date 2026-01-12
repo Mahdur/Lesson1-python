@@ -1,6 +1,6 @@
 text =input("Enter a string")
 text2 = "Mahdur"
-print(text2.find('u'))
+print(text2)
 
 revText = text[::-1]
 text = revText
@@ -23,3 +23,15 @@ line = input("enter a string")
 
 
 print(line[3::3])
+
+
+statement="in maths two plus two equals four"
+print(statement.endswith("four"))
+
+print(statement.split(" "))
+
+print(statement.find("m"))
+
+print(statement.index("m"))
+
+print(statement.count("u"))
