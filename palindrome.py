@@ -1,3 +1,6 @@
-word = input("enter a word")
-for character in word[::-1]:
-    print(character, end="")
+word = input("Enter a string: ")
+
+if word == word[::-1]:
+    print("Palindrome")
+else:
+    print("Not a palindrome")
